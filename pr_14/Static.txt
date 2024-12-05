@@ -1,0 +1,33 @@
+public class A {
+    public final int a;
+}
+
+Варианты инициализации:
+1. При объявлении:
+   
+   public class A {
+       public final int a = 10;
+   }
+
+2. В конструкторе:
+   
+   public class A {
+       public final int a;
+       public A(int value) {
+           this.a = value;
+       }
+   }
+
+   В этом случае значение a будет задано при создании объекта класса A.
+
+
+3. Через экземплярный инициализатор:
+
+   public class A {
+       public final int a;
+       {
+           a = 30; // Инициализация через экземплярный инициализатор
+       }
+       public A() {
+       }
+   }
