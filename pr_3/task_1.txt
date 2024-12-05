@@ -1,0 +1,25 @@
+// Целочисленные типы
+byte byteValue = 100;
+byte nullByteValue = 0;
+
+short shortValue = 5;
+short nullShortValue = 0;
+
+int intValue = -300;
+int nullIntValue = 0;
+
+long longValue = 100000L;
+long nullLongValue = 0L;
+
+// Числа с плавающей точкой
+float floatValue = 0.1f;
+float nullFloatValue = 0.0f;
+
+double doubleValue = 16.666;
+double nullDoubleValue = 0.0;
+
+// Логический тип
+boolean booleanValue = false; // true или false
+
+// Символьный тип
+char charValue = '\u0000'; // Нулевой символ в Unicode
